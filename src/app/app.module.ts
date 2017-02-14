@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 import { GridModule ) from '@progress/kendo-angular-grid';
 
 import { AppComponent } from './app.component';
+import { SponsorGridComponent } from './sponsor-grid/sponsor-grid.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SponsorGridComponent
   ],
   imports: [
     BrowserModule,
