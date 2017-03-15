@@ -1,2 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@progress/kendo-theme-default/scss/all";
+#background-image {
+  display: block;
+}
+
+#background-image::after {
+  content: "";
+  background: url("https://avatars1.githubusercontent.com/u/13358086?v=3&s=200");
+  opacity: 0.04;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
